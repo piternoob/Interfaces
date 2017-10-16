@@ -1,0 +1,75 @@
+p[class*=leyenda]::first-line{
+  font-weight: bold;
+  font-style: italic;
+}
+
+div#Segovia::first-letter{
+  font-size: 3em;
+}
+
+a[href]{
+  font-family: Comic Sans MS;
+  font-size: 14pt;
+  color: yellow;
+}
+
+a[href]:visited{
+  color:brown;
+}
+
+a[href]:active{
+  color:violet;
+}
+
+a[href]:hover{
+  color:orange;
+  font-size: 1,4em;
+}
+
+div#leyendas>p::before{
+  content: "LEYENDA";
+  font-family: Arial;
+  color:pink;
+  font-size: 12pt;
+}
+
+div>p::after{
+  content: url(imagenes/minialcazar.jpg);
+}
+
+div :first-child{
+  color: #A4F213;
+  font-family: Cambria;
+  font-size: 28pt;
+}
+
+div>p:nth-child(3){
+  font-family: Times New Roman;
+  font-size: 13pt;
+  color: hsl(310,100%,50%);
+}
+
+div>p:nth-last-child(2){
+    font-family: Times New Roman;
+    font-size: 11pt;
+    color: rgb(123, 171, 171);
+  }
+
+div>p:first-child {
+  color:blue;
+  text-decoration: underline;
+  font-style: italic;
+  color: salmon;
+}
+
+div>p:first-child {
+  color: salmon;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+div>p:last-child {
+  color: salmon;
+  text-decoration: underline;
+  font-style: italic;
+}

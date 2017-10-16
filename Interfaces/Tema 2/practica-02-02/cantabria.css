@@ -1,0 +1,45 @@
+h3[title]{
+  font-family: Arial;
+  color: #948B0E;
+}
+
+[class=historia]{
+  font-family: Century;
+  font-size: 10pt;
+  color: #CBE68D;
+}
+
+[class~=cantabra]{
+  font-family: Corbel;
+  font-size: 11pt;
+  color: #54B3B6;
+}
+
+[title^=Cantabra]{
+  font-family: Georgia;
+  font-size: 12pt;
+  color: #751A7C;
+}
+
+[title$=loco]{
+  font-family: Latha;
+  font-size: 13pt;
+  color: #273CDD;
+}
+
+[title*=conquista]{
+  font-family: Calibri;
+  font-size: 12pt;
+  color: #910D1F;
+}
+
+.reconquista:first-letter{
+  font-size: 3em;
+  color: #CDB3DD;
+}
+
+
+.cantabria:first-line{
+  color: #D5D21B;
+  text-transform: capitalize;
+}

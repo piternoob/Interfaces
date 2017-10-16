@@ -1,0 +1,17 @@
+@@font-face {
+  font-family: Coldbringer;
+  src: url(Coldbringer.ttf);
+}
+
+#campanas>div {
+  font-family: Verdana;
+  font-size: 10pt;
+  color: grey;
+  text-transform: uppercase;
+}
+
+#veleta p~p {
+  font-family: Coldbringer;
+  font-size: 11pt;
+  color: #D85E20;
+}
