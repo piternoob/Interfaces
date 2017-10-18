@@ -1,0 +1,45 @@
+/*a) Para los párrafos de la clase "b1" el color de fondo del párrafo va a
+ser 97107E, dicho color se aplicará a partir del contenido. El color
+de los caracteres va a ser 90E0D9. El tipo de letra va a ser el
+correspondiente al fichero "The Constellation of Heracles.ttf" con
+un tamaño de 11 puntos y en negrilla. La primera letra va a tener
+un tamaño 2'5 veces mayor que el normal.*/
+
+@@font-face {
+  font-family: The Constellation of Heracles;
+  src: url(tipo letra/The Constellation of Heracles.ttf);
+}
+
+article[class=b1]::first-letter{
+  font-size: 2.5em;
+}
+
+article[class=b1]{
+  background-color: #97107E;
+  background-clip: content-box;
+  color: #90E0D9;
+  font-family: The Constellation of Heracles;
+  font-size: 11pt;
+  font-weight: bold;
+}
+
+
+/*b) Para los párrafos de la clase "b2" el color de fondo del párrafo va a
+ser 5FCB17, dicho color se aplicará a partir del contenido. El color
+de los caracteres va a ser DD7474. La primera línea va a tener
+todas las letras en mayúsculas. El tipo de letra va a ser Caladea
+con un tamaño de 13 puntos subrayado y en cursiva.*/
+
+article[class=b2] ::first-line{
+  text-transform: uppercase;
+}
+
+article[class=b2]{
+  background-color: #5FCB17;
+  background-clip: content-box;
+  color: #DD7474;
+  font-family: Caladea;
+  font-size: 13pt;
+  text-decoration: underline;
+  font-style: italic;
+}

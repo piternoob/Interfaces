@@ -1,0 +1,14 @@
+/*a) Muestra como imagen de fondo "torre bujaco.jpg" repetido
+horizontalmente Todo el documento va a tener como tipo de letra
+"Verdana" con un tamaño de 10 puntos y color de los caracteres
+"2F7210" en negrilla.*/
+
+body{
+  background: url("imagenes/torre bujaco.jpg");
+  background-repeat: repeat-x;
+  background-size: 35% 100%;
+  font-family: Verdana;
+  font-size: 10pt;
+  color: #2F7210;
+  font-weight: bold;
+}

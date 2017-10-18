@@ -1,0 +1,45 @@
+/*a) Todo el documento va a tener como tipo de letra "Lucida Sans"
+con un tamaño de 13 puntos y color de los caracteres " 690C26"
+en negrilla.*/
+
+body{
+  font-family: Lucida Sans;
+  font-size: 13pt;
+  color: #690C26;
+  font-weight: bold;
+}
+
+/*b) Para los párrafos de la clase "c1" muestra como imagen de fondo
+la imagen "torre bujaco.jpg" dicha imagen se va a mostrar a partir
+del contexto y si tiene un tamaño superior se deberá omitir la
+parte que sobresale. El texto deberá aparecer tachado.*/
+
+article[class=c1]{
+  background: url("imagenes/torre bujaco.jpg");
+  background-clip: content-box;
+  text-decoration: line-through;
+  overflow: hidden;
+}
+
+/*c) Para los párrafos de la clase "c2" muestra como imagen de fondo
+la imagen "palacio ovando.jpg" dicha imagen se va a mostrar a
+partir del relleno y si tiene un tamaño superior se deberá omitir la
+parte que sobresale en el ancho.*/
+
+article[class=c2]{
+  background: url("imagenes/palacio ovando.jpg");
+  background-clip: padding-box;
+  overflow-x: hidden;
+}
+
+
+/*d) Para los párrafos de la clase "c3" muestra como imagen de fondo
+la imagen "iglesia santiago.jpg" dicha imagen se va a mostrar a
+partir del borde y si tiene un tamaño superior se deberá omitir la
+parte que sobresale en el alto.*/
+
+article[class=c3]{
+  background: url("imagenes/iglesia santiago.jpg");
+  background-clip: border-box;
+  overflow-y: hidden;
+}

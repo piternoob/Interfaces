@@ -1,0 +1,88 @@
+/*a) Haz que todos los párrafos cuyo atributo class empieza por el
+valor "cristiano" se muestren con el tiupo de letra Calibri en color
+naranja.*/
+
+p[class^="cristiano"]{
+  font-family: Calibri;
+  color: orange;
+}
+
+div[class^="cristiano"]{
+  font-family: Calibri;
+  color: orange;
+}
+
+/*b) Haz que todos los párrafos cuyo atributo class contiene el valor
+"ciudad" se muestren con un tamaño de 13 puntos y subrayado.*/
+
+p[class*="ciudad"]{
+  font-size: 13pt;
+  text-decoration: underline;
+}
+
+div[class*="ciudad"]{
+  font-size: 13pt;
+  text-decoration: underline;
+}
+
+/*c) Haz que todos los párrafos cuyo atributo class termina por el
+valor "mudejar" tengan como color de fondo el azul y las letra en
+cursiva.*/
+
+div[class$="mudejar"]{
+  background-color: blue;
+  text-decoration: underline;
+}
+
+p[class$="mudejar"]{
+  background-color: blue;
+  text-decoration: underline;
+}
+
+/*d) Todos los párrafos que tengan identificador se van a mostrar con
+el tipo de letra Calibri con un tamaño de 14 puntos en color
+marrón.*/
+
+div[id]{
+  font-family: Calibri;
+  color: brown;
+}
+
+p[id]{
+  font-family: Calibri;
+  color: brown;
+}
+
+/*e) Todos los párrafos que tengan el atributo class y que contenga por
+la cadena "al" se van a mostrar con e3l tipo de letra Arial y un
+tamaño de 10 puntos en color verde.*/
+
+div[class*="al"]{
+  font-family: Arial;
+  font-size: 10pt;
+}
+
+p[class*="al"]{
+  font-family: Arial;
+  font-size: 10pt;
+}
+
+
+/*f) Todos los párrafos con el atributo class que empiece con la cadena
+"ven" se van a mostrar con el tipo de letra Cambria con un tamaño
+un 12% mayor que el actual, en cursiva y de color 156, 41, 222 en
+rgb.*/
+
+div[class^="ven"]{
+  font-family: Cambria;
+  font-size: 1.2em;
+  text-decoration: underline;
+  color: rgb(156, 41, 222);
+}
+
+p[class^="ven"]{
+  font-family: Cambria;
+  font-size: 1,2em;
+  text-decoration: underline;
+  color: rgb(156, 41, 222);
+}

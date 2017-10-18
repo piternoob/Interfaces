@@ -1,0 +1,16 @@
+/*a) Muestra como imagen de fondo "convento san marcos.jpg"
+repetido verticalmente. Todo el documento va a tener como tipo
+de letra "Vivaldy" con un tamaño de 14 puntos y color de los
+caracteres " 0B08BD" en mayúsculas la primera letra de cada
+palabra en cursiva y en negrilla.*/
+
+body{
+  background-image: url("imagenes/convento san marcos.jpg");
+  background-repeat: repeat-y;
+  font-family: Vivaldy;
+  font-size: 14pt;
+  color: #0B08BD;
+  text-transform: capitalize;
+  text-decoration: underline;
+  font-weight: bold;
+}

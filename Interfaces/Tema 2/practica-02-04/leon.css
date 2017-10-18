@@ -1,0 +1,37 @@
+/*a) Todo el documento va a tener como tipo de letra "Nyala" con un
+tamaño de 11 puntos y color de los caracteres "DarkRed"
+subrayado y en cursiva.*/
+
+body{
+  font-family: Nyala;
+  font-size: 11pt;
+  color: DarkRed;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+/*b) Muestra como imagen de fondo las imágenes "catedral leon.jpg",
+"casa botines.jpg" y "convento san marcos.jpg". Dichas imágenes
+deberán ocupar toda la pantalla, sin repetirse ninguna de ellas.
+Además las imágenes siempre estarán visibles y no se desplazarán.*/
+
+body{
+  background: url("imagenes/catedral leon.jpg") top center no-repeat,
+  url("imagenes/casa botines.jpg") center center no-repeat,
+  url("imagenes/convento san marcos.jpg") bottom center no-repeat;
+  background-size: 100% 33.3%;
+  background-attachment: fixed;
+}
+
+/*c) El tipo de letra para todo el documento va a ser "latha" con un
+tamaño de 12 puntos, todas letras deberán aparecer en
+minúsculas. La sangría va a ser diez veces la anchura del número
+cero. El color de los caracteres va a ser "DarkSlateGray".*/
+
+body{
+  font-family: latha;
+  font-size: 12pt;
+  text-transform: lowercase;
+  text-indent: 10em;
+  color: DarkSlateGray;
+}

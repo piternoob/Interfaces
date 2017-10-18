@@ -1,0 +1,52 @@
+/*a) Haz que los párrafos de la clase "viene" que sean hijos de de un
+elemento de la clase "origenes" se muestre con el tipo de letra
+Comic Sans MS, un tamaño de 14puntos, color verde y subrayado.*/
+
+[class="origenes"]>p[class="viene"]{
+  font-family: Comic Sans MS;
+  font-size: 14pt;
+  color:green;
+  text-decoration: underline;
+}
+
+[class="origenes"]>div[class="viene"]{
+  font-family: Comic Sans MS;
+  font-size: 14pt;
+  color:green;
+  text-decoration: underline;
+}
+
+/*b) Haz que los elementos que sean de la clase "primero" que sean
+hijos de un elemento de al menos de la clase "cordoba" se
+muestren con el tipo de letra Times New Roman, un tamaño de 13
+puntos, color azul y en cursiva..*/
+
+[class~="cordoba"]>[class="primero"]{
+  font-family: Times New Roman;
+  font-size: 13pt;
+  color:blue;
+  text-decoration: underline;
+}
+
+/*c) Haz que los elementos que el atrbuto class termine con la cadena
+"ana" se muestren en negrilla.*/
+
+[class$="ana"]{
+  font-weight: bold;
+}
+
+/*d) Haz que todos los elementos que el atributo class empieza con el
+valor "siglo" se muestren en negrilla y cursiva.*/
+
+
+[class^="siglo"]{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/*e) Haz que todos los elementos que contengan en el atributo class la
+cadena "X" se muestren en color rojo.*/
+
+[class*="X"]{
+  color: red;
+}
