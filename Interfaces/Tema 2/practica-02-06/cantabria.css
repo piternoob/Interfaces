@@ -1,0 +1,161 @@
+#primera {
+  border-top: 2px double orange;
+  border-bottom: 1px dotted yellow;
+  border-left: 3px dashed brown;
+  border-right: 1px groove #A292A4;
+  padding-top: 5px;
+  padding-left: 7px;
+  padding-right: 3px;
+  padding-bottom: 2px;
+  text-decoration: overline #7C0707;
+  text-shadow: #4A5860 -4px 4px;
+  background: #B2EBA9 padding-box;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  font-family: Calibri;
+  font-size: 10pt;
+}
+
+body{
+  background-color: #C2AD85;
+}
+/*
+A la primera aparición de la etiqueta <section> aplicaremos:
+i. Borde superior de 2px trazo doble de color naranja
+ii. Borde inferior de 1px trazo de punto de color amarillo
+iii. Borde izquierdo de 3px trazo discontinuo de color marrón
+iv. Borde derecho de 1px trazo tipo tejado de color A292A4
+v. Relleno superior 5px
+vi. Relleno izquierdo 7px
+vii. Relleno derecho 3px
+viii. Relleno inferior 2px
+ix. Sobrelínea de 5px
+x. Color sobrelínea 7C0707
+xi. Sombra izquierda y abajo en color 4A5860
+xii. Color de fondo del párrafo B2EBA9 a partir del relleno
+xiii. Color de fondo del documento C2AD85
+xiv. Margen superior 20px
+xv. Margen izquierdo 30px
+xvi. Margen derecho 15px
+xvii. Margen inferior 10px
+xviii. Tipo de letra Calibri con un tamaño de 10 puntos.
+*/
+
+#segunda {
+border: 4px red;
+padding: 5px;
+margin: 10px;
+background: blue padding-box;
+color: white;
+text-indent: 25mm;
+font-weight: bold;
+text-align: left;
+}
+/*
+A la segunda aparición de la etiqueta <section> aplicaremos:
+i. Pondremos un borde de 4px de color rojo.
+ii. Pondremos un relleno de 5px.
+iii. Pondremos un margen de 10px.
+iv. Pondremos como color de fondo azul aplicado a partir del relleno.
+v. Color de los caracteres blanco.
+vi. Sangría de 25 mm.
+vii. Texto en negrilla.
+viii. Texto alineado a la izquierda.
+*/
+#tercera {
+  background: url(imagenes/valle-1.jpg)  left no-repeat,
+      url(imagenes/valle-2.jpg) right no-repeat;
+  line-height: 1.5em;
+  text-align: right;
+  font-style: italic;
+}
+
+/*
+A la tercera aparición de la etiqueta <section> aplicaremos:
+i. Vamos a poner como imágenes de fondo valle-1.jpg y valle-2.jpg, que se
+mostrarán a partir del contenido.
+ii. Alto de las líneas un 50% mayor que el alto de los caracteres.
+iii. Texto alineado a la derecha.
+iv. Texto en cursiva.
+*/
+
+#cuarta {
+ background: url(imagenes/valle-3.jpg) padding-box;
+ padding: 10px;
+ border: dotted 2px blue;
+ text-align: justify;
+ text-decoration: underline;
+}
+
+/*
+A la cuarta aparición de la etiqueta <section> aplicaremos:
+i. Vamos a poner como imagen de fondo valle-3.jpg, que se mostrarán a
+partir del relleno.
+ii. Pondremos un relleno de 10px.
+iii. Pondremos un borde punteado de tamaño 2px y de color azul. Dicho borde
+deberá parecer redondeado.
+iv. Texto justificado.
+v. Texto subrayado
+*/
+
+#quinta {
+  text-align: center;
+  border: dotted 4px red;
+}
+
+section[id=quinta] h2{
+  color: red;
+}
+
+/*
+A la quinta aparición de la etiqueta <section> aplicaremos:
+i. Texto centrado.
+ii. Cabeceras con texto sombreado, a la izquierda y hacia arriba, del color que
+tú quieras.
+iii. Borde redondeado de 4px del color que tú elijas.
+*/
+
+#sexta {
+
+}
+
+/*
+A la sexta aparición de la etiqueta <section> aplicaremos:
+i. Texto justificado.
+ii. Tipo de letra Times New Roman con un tamaño de 13 puntos de color verde
+en negrilla y en cursiva.
+iii. Color de fondo naranja, aplicado a partir del borde.
+iv. Borde con sombra de 6px punteado de color azul.
+*/
+
+#septima {
+
+}
+
+/*
+A la séptima aparición de la etiqueta <section> aplicaremos:
+i. Texto justificado.
+ii. Sobrelínea de 4px de color marrón.
+iii. Tipo de letra Comic Sans Ms con un tamaño de 12 puntos de color naranja.
+iv. Color de fondo azul aplicado a partir del contenido.
+v. Margen superior 10px.
+vi. Margen inferior 5px.
+vii. Margen izquierdo 8px.
+viii. Margen derecho 3px.
+*/
+
+#octava {
+
+}
+
+/*
+A la octava aparición de la etiqueta <section> aplicaremos:
+i. Texto justificado.
+ii. Relleno izquierdo y derecho de 9px.
+iii. Relleno superior e inferior de 7px.
+iv. Bordes de 5px de color rojo.
+v. Tipo de letra Century con un tamaño de 14 puntos y de color violeta.
+vi. Color de fondo salmón aplicado a partir del borde.
+*/
