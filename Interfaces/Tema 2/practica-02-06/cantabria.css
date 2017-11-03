@@ -107,6 +107,7 @@ v. Texto subrayado
 
 section[id=quinta] h2{
   color: red;
+  text-shadow: -4px -4px blue;
 }
 
 /*
@@ -118,7 +119,14 @@ iii. Borde redondeado de 4px del color que tú elijas.
 */
 
 #sexta {
-
+  text-align:justify;
+  font-family: Times New Roman;
+  font-size: 13pt;
+  color: green;
+  font-weight: bold;
+  font-style: italic;
+  background: orange border-box;
+  border: 6px dotted blue;
 }
 
 /*
@@ -131,7 +139,13 @@ iv. Borde con sombra de 6px punteado de color azul.
 */
 
 #septima {
-
+  text-align: justify;
+  text-decoration: overline 4px brown;
+  font-family: Comic Sans Ms;
+  font-size: 12pt;
+  color: orange;
+  background: blue content-box;
+  margin: 10px 3px 5px 8px;
 }
 
 /*
@@ -147,7 +161,13 @@ viii. Margen derecho 3px.
 */
 
 #octava {
-
+text-align: justify;
+padding: 7px 9px 7px 9px;
+border: 5px red;
+font-family: Century;
+font-size: 14pt;
+color: violet;
+background: salmon border-box
 }
 
 /*

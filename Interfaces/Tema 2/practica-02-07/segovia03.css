@@ -1,0 +1,63 @@
+/*a. Los enlaces van a tener como color verde, los enlaces visitados
+tienen por color el 302 en hsl, cuando nos situemos sobre los enlaces
+el color de los mismos va a ser 051B41, cuando pulse el ratón sobre
+el enlace va a tener como color 187, 187, 64 en rgb.*/
+
+
+/*b. La imagen de fondo va ser acueducto.jpg que se va a mostrar a partir
+del contenido. El color de fondo va a ser azul, que se mostrara a
+partir del borde.*/
+
+
+/*c. El margen izquierdo va a ser de 40px, el margen derecho va a ser de
+30px y el margen superior va a ser de 35px.*/
+
+
+/*d. El tipo de letra para todo el documento va a ser Calibri con un
+tamaño de 13 puntos. El color de los caracteres va a ser 681422.*/
+
+
+/*e. El párrafo cuyo identificador es Leyendas va a tener como tipo de
+letra Cambria y un tamaño de 12 puntos. Va a tener un borde en alto
+relieve de 3 px.*/
+
+
+/*f. Los párrafos que tengan en el atributo class al menor el valor leyenda
+la primera línea se va a mostrar en mayúsculas con un tamaño doble.*/
+
+
+/*g. Los párrafos que el atributos class empiece por la letra c van a tener
+como tamaño de letra 1.5 veces el tamaño indicado en el body.*/
+
+
+/*h. El párrafo que tenga el identificador Segovia va a tener un borde
+discontinuo de un tamaño de 2px de color amarillo. También va a
+tener una sombra de 2px del tu color deseado. Va a tener una sobre
+línea de 3px de color naranja. Va a tener un relleno superior de 5px,
+un relleno izquierdo de 6px y un relleno derecho de 4px. Va a tener
+un margen izquierdo de 10px, un margen superior de 9px y un
+margen izquierdo de 6px. Va a tener una sobre línea de 4px de color
+oro. El tamaño del tipo de letra va a ser la mitad del tamaño del
+body. Va a tener una sangría de 22px.*/
+
+
+/*i. El párrafo que tenga el identificador catedral va a tener un borde de
+5px en bajo relieve redondeado. Con una sombra a la izquierda y
+hacia arriba. Va a tener un relleno superior de 12px, un relleno
+izquierdo de 15px y un relleno derecho de 8px. La altura de la línea
+va a ser el doble del tipo de letra.*/
+
+
+/*j. El párrafo que tenga el identificador acueducto va a tener un borde
+de 4px tipo cresta. Va a tener una sombra alrededor del mismo de
+6px. Va a tener un relleno superior de 13px, un relleno izquierdo de
+16px y un relleno derecho de 7px. El tamaño del tipo de letra va a ser
+las tres cuartas partes del tamaño del padre. Va a tener una sangría
+de 22 puntos.*/
+
+
+/*k. El párrafo que tenga el identificador alcazar va a tener un borde de
+3px tipo canal redondeado. Va a tener un relleno superior de 25px,
+un relleno izquierdo de 30px y un relleno derecho de 14px. La altura
+de las líneas va a ser un 50% mayor que el tamaño del tipo de letra
+definido para el body.*/
