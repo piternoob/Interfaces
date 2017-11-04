@@ -1,0 +1,39 @@
+
+body {
+  text-align: center;
+}
+.header{
+  background-color: grey;
+  height: 100px;
+  width: 100%;
+}
+.verde{
+  background-color: green;
+  height: 25px;
+  width: 100%;
+  float: left;
+}
+.left{
+  background-color: grey;
+  height: 800px;
+  width: 20%;
+  float: left;
+}
+.right{
+  background-color: grey;
+  height: 800px;
+  width: 20%;
+  float: right;
+}
+.block{
+  background-color: yellow;
+  height: 300px;
+  width: 30%;
+  float: left;
+}
+.content{
+  background-color: blue;
+  height: 500px;
+  width: 60%;
+  float: left;
+}
