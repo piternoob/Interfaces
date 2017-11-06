@@ -1,105 +1,116 @@
-/*a. Todo el documento va a utilizar como tipo de letra “Comic Sans MS”
-con un tamaño de 10 pt. Va a tener un margen izquierdo de 1’5 cm,
-un margen derecho de 1 cm, un margen superior de 8 mm y un
-margen inferior de 5 mm. Además va a tener una sangría en la
-primera línea de cada párrafo de 0’4 pulgadas.*/
+body{
+    font-family: "Comic Sans";
+    font-size: 10pt;
+    margin: 8mm 1cm 5mm 1.5cm;
+    text-indent: 0.4in;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Cambria;
+}
+h1{
+    font-size: 3em;
+
+}
+h2{
+    font-size: 2.5em;
+}
+h3{
+    font-size: 2em;
+}
+h4{
+    font-size: 1.5em;
+}
+a[href]{
+ color: #7c1b43;
+}
+a:active[href]{
+    color: yellow;
+}
+a:visited[href]{
+    color: darkgreen;
+}
+p:hover{
+    color: gold;
+    font-size: 2rem;
+}
+#monumetos div[class~="primero"] >h3:first-child{
+    text-shadow: #4E4E4E 3px 4px , #231 5px 6px , #43E 7px 8px ,#000 9px 11px;
+}
+
+div[class] div:nth-child(2):first-line{
+    font-style: italic;
+    font-weight: bold;
+}
+#monumetos * p:first-letter{
+    font-size: 1.5em;
+    color:blue;
+}
+div[class$="ro"]>div[class$="cero"]:before{
+    content: "Cordoba";
+    font-family: Calibri;
+    font-size: 1.3em;
+    color: green;
+}
+[class*="parti"]:after {
+    content: url("imagenes/mezquita.jpg");
+}
+div[id$="re"] >p{
+
+    border:dotted;
+    border-color: #1C5C25 #0B08BD #1C5C25 #0B08BD;
+    border-width: 0.3em 0.4em 0.3em 0.4em;
 
 
-/*b. Todas la cabeceras se van a mostrar con el tipo de letra “Cambria”,
-siendo el tamaño de las cabeceras los siguiente, la cabecera 1 va a
-tener un tamaño de letra 3 veces superior al tamaño de la letra del
-documento, la cabecera 2 va a tener un tamaño 2’5 veces el tamaño
-de la letra del documento, la cabecera 3 va a tener un tamaño 2
-veces el tamaño de la letra del documento, la cabecera 4 va a tener
-un tamaño 1’5 veces el tamaño de la letra del documento.*/
+}
+[id*="met"]>div:nth-child(3){
+    background: linear-gradient(65deg, #355e7c 30%, #382c7c 40%, #7c6923 60%,#1e7c48 70% ) ;
 
 
-/*c. Los enlaces se van a mostrar en color burdeos, los enlaces visitados
-se van a mostrar en color verde botella, los enlaces activos se van a
-mostrar en color amarillos./*
+}
+div>div:only-child{
+    padding-left: 4mm;
+    padding-bottom: 2mm;
+    border-color: transparent;
+    border-width: 2mm;
+    outline-color: deeppink;
+    outline-width: 2mm;
+    background-color: saddlebrown;
+    background-clip: content-box;
+
+}
+div[class="espacio"]:after{
+    content: "Sin Contenido";
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: #1C5C25;
+
+}
+[class~="nuevo"] div:-moz-only-whitespace{
+width: 400px;
+    height: 300px;
+    background: linear-gradient(65deg, #355e7c 30%, #382c7c 40%, #7c6923 60%,#1e7c48 70% ,#7c1511 80%) ;
+}
+#musulmana>div{
+    height: 300px;
+    width: 400px;
+    border-style: dotted;
+    border-color: silver;
+    writing-mode: vertical-lr;
+    text-orientation:upright;
 
 
-/*d. Cuando nos situemos encima sobre un párrafo con la etiqueta <p>,
-éste se va a mostrar de color oro y además en ese instante el tamaño
-de las letras va a ser 2 veces el tamaño de las letras del documento.*/
 
+}
+#musulmana>div:last-child{
+    writing-mode: horizontal-tb;
+}
+#musulmana>div:nth-child(2){
+    writing-mode: horizontal-tb;
+}
+#romana>div{
+    border-style: dashed;
+    border-color: #1C5C25;
 
-/*e. Las cabeceras h3 que sean el primer hijo de un párrafo que sea al
-menos de la clase primero, que a su vez es hijo de un elemento con
-identificador “monumentos” se va a mostrar con una sombra en el
-texto compuesta por cuatro colores.*/
-
-
-/*f. La primera línea de un párrafo div, que sea el segundo hijo de un
-párrafo que tenga el atributo class, se va a mostrar esa primera línea
-en negrilla y en cursiva.*/
-
-
-/*g. La primera letra de un párrafo que sea nieto de un elemento
-perteneciente al identificador “monumentos” se va a mostrar con un
-tamaño 1’5 veces superior al tamaño de la letra del documento y en
-color azul.*/
-
-
-/*h. Delante de los párrafos div que tengan el atributo class y que termine
-su valor por la cadena “cero” descendiente de otro párrafo div que
-también tiene el atributo class y que termina por el valor “ro” se va a
-mostrar el literal “Cordoba” con el tipo de letra “Calibri” y un tamaño
-1’3 veces el tamaño de la letra del documento en color verde.*/
-
-
-/*i. Detrás de todos los párrafos que tengan el atributo class y que su
-valor contenga la cadena “parti” vamos a mostrar la imagen
-“mezquita.jpg”.*/
-
-
-/*j. Todos los párrafos div que sean los últimos hijos de los párrafos div
-que tengan el atributo id y éste termine por la cadena “re” se van a
-mostrar con un borde punteado, siendo el color de los bordes
-horizontales verde y el de los bordes verticales azul, el ancho va a ser
-de 0’3 veces el tamaño de la letra del documento para el borde
-derecho e izquierdo, de 0’4 veces el tamaño de la letra del
-documento para el borde superior y de 0’2 veces el tamaño de la
-letra del documento para el borde inferior.*/
-
-
-/*k. Todos los párrafos div que sean los terceros hijos de un párrafos div
-descendiente de un párrafo que tenga el atributo id y cuyo valor
-contenga la cadena “men” se van a mostrar con un color de fondo
-que sea un degrado lineal de cuatro colores a tu elección, el primero
-que se pare en el 30%, el segundo en el 60 %, el tercero en el 70% y
-el cuarto en el 40%, el degradado se va a iniciar en el ángulo de 65º.*/
-
-
-/*l. Todos los párrafos div que sean los hijos únicos de otro párrafo div se
-van a mostrar con un relleno izquierdo de 4 mm, un relleno derecho
-de 3 mm, un relleno superior de 4 mm y un relleno inferior de 2 mm.
-Va a tener un borde transparente con un ancho de 2 mm. Va a tener
-una sobrelínea de 2 mm de color rosa. Va a tener un color de fondo
-marrón que se va a mostrar a partir del relleno.*/
-
-
-/*m. Delante de un párrafo div que esté vacío y perteneciente a un
-elemento que pertenezca al menos a la clase espacio, se va a mostrar
-el literal “Sin contenido” en negrilla y con un subrayado doble de
-color verde.*/
-
-
-/*n. Para el párrafo div que solo contiene blanco perteneciente a un
-elemento que pertenezca al menos a la clase nuevo se va a mostrar
-con un ancho de 400 px y un alto de 300 px, con un fondo que sea un
-degradado lineal repetido de cinco colores que tú eliges.*/
-
-
-/*o. Los párrafos div hijos del párrafo div con identificador musulmana se
-van a tener un tamaño de 300px x 400px, van a tener un borde
-punteado de color plata al inicio del párrafo, el primero y el último se
-van a mostrar con orientación horizontal y el resto se van a mostrar
-con orientación vertical, se deben poner distintos valores a cada uno
-de los párrafos. De estos últimos los que ocupan posiciones pares se
-van a mostrar las letras con orientación horizontal.*/
-
-
-/*p. Los párrafos div hijos de un párrafo div con identificador romana se
-van a mostrar con un borde cd trazo discontinuo en color verde al
-final del texto.*/
+}

@@ -1,0 +1,108 @@
+:root{
+	font-family: Times New Roman;
+	font-size: 12pt;
+	color: #7A0606;
+	margin-top: 1.5em;
+	margin-left: 2.5em;
+	margin-right: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+div{
+	border: 3em solid transparent;
+}
+article[id="monumentos"] > div{
+	outline: 2.5em dashed #787A06;
+
+}
+article[id="historia"] > div{
+	text-emphasis: open #0E5617;
+	background-color: yellow;
+	background-clip: content-box;
+}
+div[id="giralda"]{
+	background-image: url("imagenes/giralda.jpg");
+	background-origin: content-box;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+div[id="giraldillo"]{
+	background-image: url("imagenes/giraldillo.jpg");
+	background-origin: content-box;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+div[id="catedral"]{
+	background-image: url("imagenes/catedral.jpg");
+	background-origin: content-box;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+div[id="reales"] > div{
+	background-image: url("imagenes/realalcazar.jpg");
+	background-origin: content-box;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#monumentos h3 {
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	text-decoration-color: #8DEA16;
+}
+h6{
+	font-family: Cambria;
+	font-size: inherit;
+	font-weight: bold;
+}
+h5{
+	font-family: Cambria;
+	font-size: 1.25em;
+	font-weight: bold;
+}
+h4{
+	font-family: Cambria;
+	font-size: 1.50em;
+	font-weight: bold;
+}
+h3{
+	font-family: Cambria;
+	font-size: 1.75em;
+	font-weight: bold;
+}
+h2{
+	font-family: Cambria;
+	font-size: 2em;
+}
+h1{
+	font-family: Cambria;
+	font-size: 2.25em;
+	font-weight: bold;
+}
+
+
+div[class~="vertical"]{
+	width: 300px;
+	height: 300px;
+	writing-mode: sideways-rl;
+	text-orientation:upright;
+}
+div[class~="inverso"]{
+	width: 200px;
+	height: 400px;
+	writing-mode: sideways-lr;
+	text-orientation:upright;
+}
+div[class~="final"]{
+	border-inline-end-color: #8C0A0C;
+	border-inline-end-style:groove;
+}
+div[class~="inicial"]{
+	border-inline-end-color: #CD0808;
+	border-inline-end-style:ridge;
+}
+
+h5{
+	text-shadow: 1px -1px #0DEC28 , 2px -2px #0FB07F, 3px -3px #098F9D , 4px -4 #0B6EB0, 5px -5px #0A14AC;
+
+}

@@ -1,0 +1,53 @@
+:root{
+	font-family: Georgia;
+	font-size: 11pt;
+	color: orange;
+	margin-top: 2em;
+	margin-left: 3em;
+	background: url("imagenes/casa-conchas-salamanca.jpg"),
+	url("imagenes/catedral-salamanca.jpg"),
+	url("imagenes/fachada-universidad-salamanca.jpg");
+	background-origin: content-box;
+	background-repeat: no-repeat;
+	background-size: 34% 100%;
+	background-position:top left,top center ,top right;
+}
+h3 ~ div:first-of-type{
+	font-style: italic;
+}
+h1{
+	font-style: italic;
+	text-decoration:overline double #0D0A88;
+}
+h2,h3{
+	text-decoration: underline;
+}
+[id="natural"] > div:nth-child(3){
+	font-size: 10%;
+	border: 6px solid;
+	border-top-color: blue;
+	border-left-color: green;
+	border-right-color: yellow;
+}
+[id="apunte"] > div{
+	color: red;
+	font-weight: bold;
+}
+[id="poblacion"] * div:active{
+	font-size: 2.5em;
+	font-style: italic;
+}
+div:nth-child(2) > h3:first-of-type{
+	color: darkgreen;
+}
+h2:last-of-type{
+	color: blue;
+}
+[id] > div:nth-child(5){
+	border-top: dotted blue;
+	border-bottom: dashed green;
+	border-left: solid red;
+	border-right: double yellow;
+	font-size: 2em;
+	box-shadow:-20px -20px 3px #B3ACE4;
+}
