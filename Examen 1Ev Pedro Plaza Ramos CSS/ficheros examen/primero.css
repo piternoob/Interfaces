@@ -1,0 +1,32 @@
+//Pedro Plaza Ramos
+body {
+	background: url("imagenes/imagen_11.jpg") top left no-repeat,
+		url("imagenes/imagen_12.jpg") top center no-repeat,
+		url("imagenes/imagen_13.jpg") top right no-repeat,
+		url("imagenes/imagen_14.jpg") bottom left no-repeat,
+		url("imagenes/imagen_15.jpg") bottom center no-repeat,
+		url("imagenes/imagen_16.jpg") bottom right no-repeat;
+	background-size: 33.3% 50%;
+	font-family: "Comic Sans MS";
+	font-size:11pt;
+	color:#195A19;
+	line-height: 1.75em;
+}
+div h2+p{
+	font-size:13pt;
+}
+div p+p{
+	border: double 1pt;
+	border-color:red, wellow, blue;
+	border-radius: 15%;
+}
+div h2{
+	color:orange;
+	text-decoration: underline dotted;
+}
+h1{
+	text-shadow: -5pt 5pt #07357F;
+}
+div p{
+	color:#DCD100;
+}

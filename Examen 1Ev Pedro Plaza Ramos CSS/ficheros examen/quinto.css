@@ -1,0 +1,40 @@
+//Pedro Plaza Ramos
+div>p:first-line{
+	text-decoration: underline;
+	font-weight: bold;
+	font-style: italic;
+}
+div>p:first-letter{
+	font-size:3em;
+}
+ul:first-of-type{
+	list-style:georgian;
+}
+
+ul:last-of-type{
+	
+}
+
+ol:last-of-type{
+	list-style:lower-greek;
+}
+img{
+	width:50px;
+	height:50px;
+}
+a{
+	color:#2DE120;
+	font-size:14pt;
+}
+vlink{
+	color:#E18E20;
+	font-size:13pt;
+}
+
+alink{
+	color:#20E1D8;
+	font-size:16pt;
+}
+div[id="constr"]{
+	
+}

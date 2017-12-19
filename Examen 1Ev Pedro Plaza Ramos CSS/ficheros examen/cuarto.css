@@ -1,0 +1,37 @@
+//Pedro Plaza Ramos
+div{
+	width:400px;
+	height:200px;
+	border: double 10pt;
+	border-radius: 15%;
+	box-shadow: -5pt 5pt #12E69C;
+}
+
+div[class="c1"]{
+	overflow:hidden;
+	background-color:radial-gradient( #F4BEFA, #FABED6);
+}
+
+div[class="c2"]{
+	overflow-x:hidden;
+	background-color:linear-gradient( #9D3BBE, #643BBE);
+}
+
+div[class="c3"]{
+	overflow-y:hidden;
+	background-color:linear-gradient( #9AC9D5, #65B2A4, #6D853E);
+}
+
+body{
+	margin-left: 15px;
+	margin-top: 5px;
+	margin-right: 10px;
+	padding-top:6px;
+	padding-left:3px;
+	padding-right:5px;
+	font-family:Cambria;
+	font-size: 11pt;
+	color: #32164E;
+	background: url("imagenes/paris-2.jpg") repeat-y;
+	background-size:40% 40%;
+}
